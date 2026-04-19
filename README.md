@@ -32,7 +32,9 @@ The problem is not that "the keys are bad", but that the financial transaction t
 3. **Authorization:** Happens on the server based solely on UID.
 
 **PoC:**
-(Dump pictures)
+![Access Conditions 1](https://github.com/Vulndisclosure/Hands_UP-ladoshki-system-card-vuln/blob/main/Pics/Screenshot_20260419_114546_MIFARE%20Classic%20Tool.jpg)
+
+![Access Conditions 2](https://github.com/Vulndisclosure/Hands_UP-ladoshki-system-card-vuln/blob/main/Pics/Screenshot_20260419_114012_MIFARE%20Classic%20Tool.jpg)
 
 In the screenshot of Access Conditions, it is clear that all sectors are managed with the default key. The Read/Write columns confirm the ability to manipulate block data without using proprietary encryption algorithms, making the system defenseless against any NFC-compatible device.
 
