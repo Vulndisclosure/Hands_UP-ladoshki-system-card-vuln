@@ -1,3 +1,4 @@
+![Logo](https://github.com/Vulndisclosure/Hands_UP-ladoshki-system-card-vuln/blob/main/Pics/9d0f0db0-3ba8-11f1-b278-27ad5d0c24db.png)
 # "Hands up!" - vulnerability of the school authenification & payment system with static keys
 **By:** @Vulndisclosure 
 
