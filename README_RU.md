@@ -32,7 +32,9 @@
 3. **Авторизация:** Происходит на сервере только на основании UID.
 
 **PoC:**
-(Пикчи дампа)
+![Access Conditions 1](https://github.com/Vulndisclosure/Hands_UP-ladoshki-system-card-vuln/blob/main/Pics/Screenshot_20260419_114546_MIFARE%20Classic%20Tool.jpg)
+
+![Access Conditions 2](https://github.com/Vulndisclosure/Hands_UP-ladoshki-system-card-vuln/blob/main/Pics/Screenshot_20260419_114012_MIFARE%20Classic%20Tool.jpg)
 
 На скриншоте условий доступа (Access Conditions) видно, что все сектора управляются стандартным ключом. Столбцы Read/Write подтверждают возможность манипуляции данными блоков без использования проприетарных алгоритмов шифрования, что делает систему беззащитной перед любым NFC-совместимым устройством
 
